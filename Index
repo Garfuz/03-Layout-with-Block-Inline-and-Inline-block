@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>03 Layout with Block</title>
+      <link rel="stylesheet" href="Styles" charset="utf-8">
+  </head>
+  <body>
+
+
+  <header>
+    <div>
+      <h1 class="header_title">Bitmaker Photo Gallery</h1>
+    </div>
+  </header>
+
+  <nav class="nav1">
+    <ul>
+      <li><a href="">Home</a></li>
+      <li><a href="">Add a photo</a></li>
+      <li><a href="">About</a></li>
+    </ul>
+  </nav>
+
+  <div class="outterwrapper">
+    <div class="wrapper">
+      <h2>There are <span class="item">6</span> photos</h2>
+    </div>
+
+    <section class="section1">
+      <div class="image">
+        <img src="https://images.unsplash.com/photo-1475079866154-c8b52e94dc61?dpr=1&amp;auto=format&amp;fit=crop&amp;w=1500&amp;h=2250&amp;q=80&amp;cs=tinysrgb&amp;crop=">
+          <div class="img_tag">
+            <a href="#">Edit</a> | <a href="#">Deleted</a>
+          </div>
+      </div>
+      <div class="image">
+        <img src="https://images.unsplash.com/photo-1501608571776-687ff2293ba9?dpr=1&amp;auto=format&amp;fit=crop&amp;w=1500&amp;h=2250&amp;q=80&amp;cs=tinysrgb&amp;crop=" />
+          <div class="img_tag">
+            <a href="#">Edit</a> | <a href="#">Deleted</a>
+          </div>
+      </div>
+      <div class="image">
+        <img src="https://images.unsplash.com/photo-1475018608413-f84fe2a42b7a?dpr=1&amp;auto=format&amp;fit=crop&amp;w=1500&amp;h=2241&amp;q=80&amp;cs=tinysrgb&amp;crop=" />
+          <div class="img_tag">
+            <a href="#">Edit</a> | <a href="#">Deleted</a>
+          </div>
+      </div>
+      <div class="image">
+        <img src="https://images.unsplash.com/photo-1500521680613-a8f77c5cd0f5?dpr=1&amp;auto=format&amp;fit=crop&amp;w=1500&amp;h=2250&amp;q=80&amp;cs=tinysrgb&amp;crop=" />
+          <div class="img_tag">
+            <a href="#">Edit</a> | <a href="#">Deleted</a>
+          </div>
+      </div>
+      <div class="image">
+        <img src="https://images.unsplash.com/photo-1500389723459-ca24a5564899?dpr=1&amp;auto=format&amp;fit=crop&amp;w=1500&amp;h=2250&amp;q=80&amp;cs=tinysrgb&amp;crop=" />
+          <div class="img_tag">
+            <a href="#">Edit</a> | <a href="#">Deleted</a>
+          </div>
+      </div>
+      <div class="image">
+        <img src="https://images.unsplash.com/photo-1499419192192-a013afa830e8?dpr=1&amp;auto=format&amp;fit=crop&amp;w=1500&amp;h=2250&amp;q=80&amp;cs=tinysrgb&amp;crop=" />
+          <div class="img_tag">
+            <a href="#">Edit</a> | <a href="#">Deleted</a>
+          </div>
+      </div>
+    </section>
+  </div>
+
+  <section class="footer_wrapper">
+    <footer>
+        <h2>Bitmaker &#9400 2016</h2>
+    </footer>
+  </section
+
+  </body>
+</html>
